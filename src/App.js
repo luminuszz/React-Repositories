@@ -2,12 +2,14 @@ import React, { Fragment } from "react";
 import "./App.css";
 import styled from "styled-components";
 import GlobalStyle from "./styles/global";
-const Title = styled.h1``;
+import Main from "./pages/main";
 
 const App = () => (
   <Fragment>
     <GlobalStyle />
-    <div className="App"></div>
+    <div className="App">
+      <Main />
+    </div>
   </Fragment>
 );
 
