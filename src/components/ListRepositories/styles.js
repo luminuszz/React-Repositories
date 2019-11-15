@@ -32,6 +32,7 @@ export const Repositore = styled.div`
   }
 
   small {
+    margin-left: 2px;
     font-size: 14px;
     color: #666;
   }

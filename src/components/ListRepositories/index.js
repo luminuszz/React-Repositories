@@ -26,11 +26,11 @@ const ListRepositories = ({ dadosRepositer }) => (
           </li>
           <li>
             {dadosRepositer.open_issues_count}
-            <small>Teste</small>
+            <small>issues</small>
           </li>
           <li>
-            {dadosRepositer.pushed_at}
-            <small>Teste</small>
+            {dadosRepositer.lastCommit}
+            <small>lastCommit</small>
           </li>
         </ul>
       </Repositore>
@@ -50,7 +50,7 @@ ListRepositories.propTypes = {
       stargazers_count: propTypes.number,
       forks_count: propTypes.number,
       open_issues_count: propTypes.number,
-      pushed_at: propTypes.string
+      lastCommit: propTypes.string
     })
   ).isRequired
 };
